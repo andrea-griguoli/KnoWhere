@@ -5,42 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f87c947a-1078-431e-8c64-cf9b318be8ca" name="Changes" comment="config">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowhere.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/Login/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/Login/login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/aranci.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/aranciof.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/celeste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/celestef.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/icons8-bookmark-24 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/icons8-bookmark-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/viola.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/violaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3e87da6-c7e9-47ad-a106-395adef2faf1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3e87da6-c7e9-47ad-a106-395adef2faf1/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3e87da6-c7e9-47ad-a106-395adef2faf1/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3e87da6-c7e9-47ad-a106-395adef2faf1/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3e87da6-c7e9-47ad-a106-395adef2faf1/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/knowhere/assets/corsPolicy/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/knowhere/main/corsPolicy/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/knowhere/main/KnowhereApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/knowhere/KnowhereApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/knowhere/KnowhereApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/knowhere/KnowhereApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,38 +48,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.KnowhereApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andrea/Documents/Programming Projects/knowhere/knowhere - backend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.KnowhereApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Andrea/Desktop/knowhere/knowhere - backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;,
-      &quot;cassandra&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "cassandra"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.knowhere" />
@@ -228,6 +194,7 @@
       <workItem from="1741640674900" duration="5000" />
       <workItem from="1742902578934" duration="597000" />
       <workItem from="1744881919720" duration="981000" />
+      <workItem from="1744921747423" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="config">
       <option name="closed" value="true" />
