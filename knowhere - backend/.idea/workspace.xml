@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f87c947a-1078-431e-8c64-cf9b318be8ca" name="Changes" comment="config">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowhere.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/Login/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/Login/login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/aranci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/aranciof.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/celeste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/celestef.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/icons8-bookmark-24 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/icons8-bookmark-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/viola.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/src/resources/violaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../knowhere-frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3e87da6-c7e9-47ad-a106-395adef2faf1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3e87da6-c7e9-47ad-a106-395adef2faf1/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3e87da6-c7e9-47ad-a106-395adef2faf1/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3e87da6-c7e9-47ad-a106-395adef2faf1/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3e87da6-c7e9-47ad-a106-395adef2faf1/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/knowhere/assets/corsPolicy/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/knowhere/main/corsPolicy/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/knowhere/main/KnowhereApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/knowhere/KnowhereApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../knowhere-frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../knowhere-frontend/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2o4SW7Fjvhvv4gaokopPYTKZm5e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.KnowhereApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andrea/Documents/Programming Projects/knowhere/knowhere - backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;cassandra&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.knowhere" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.knowhere.assets.controller" />
+      <recent name="com.example.knowhere.assets.repository" />
+      <recent name="com.example.knowhere.assets.model" />
+      <recent name="com.example.knowhere.assets.corsPolicy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.KnowhereApplication">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="knowhere - backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="knowhere - backend" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnowhereApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="knowhere" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.knowhere.KnowhereApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f87c947a-1078-431e-8c64-cf9b318be8ca" name="Changes" comment="" />
+      <created>1730127383314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730127383314</updated>
+      <workItem from="1730127384394" duration="1409000" />
+      <workItem from="1730128824153" duration="176000" />
+      <workItem from="1730129398427" duration="662000" />
+      <workItem from="1730561399581" duration="4818000" />
+      <workItem from="1730647015229" duration="6858000" />
+      <workItem from="1730733868512" duration="5480000" />
+      <workItem from="1730802265562" duration="607000" />
+      <workItem from="1730813582463" duration="633000" />
+      <workItem from="1730901721122" duration="1214000" />
+      <workItem from="1731075788028" duration="610000" />
+      <workItem from="1731159437230" duration="609000" />
+      <workItem from="1731333066287" duration="606000" />
+      <workItem from="1731344496830" duration="225000" />
+      <workItem from="1731344734872" duration="689000" />
+      <workItem from="1731418239714" duration="1226000" />
+      <workItem from="1731510231358" duration="624000" />
+      <workItem from="1731595390603" duration="1849000" />
+      <workItem from="1731680495498" duration="6336000" />
+      <workItem from="1731939947381" duration="3233000" />
+      <workItem from="1732023012740" duration="2267000" />
+      <workItem from="1732182770857" duration="4769000" />
+      <workItem from="1732197189068" duration="2500000" />
+      <workItem from="1732287057995" duration="2960000" />
+      <workItem from="1732376418029" duration="615000" />
+      <workItem from="1732545395402" duration="610000" />
+      <workItem from="1732638940756" duration="61000" />
+      <workItem from="1732717230694" duration="2082000" />
+      <workItem from="1733394312622" duration="609000" />
+      <workItem from="1733601547436" duration="14000" />
+      <workItem from="1733928446655" duration="10163000" />
+      <workItem from="1734348964787" duration="138000" />
+      <workItem from="1735296890775" duration="8474000" />
+      <workItem from="1735555368959" duration="8125000" />
+      <workItem from="1735915747225" duration="3863000" />
+      <workItem from="1735989226463" duration="6521000" />
+      <workItem from="1736251613982" duration="714000" />
+      <workItem from="1736258499053" duration="555000" />
+      <workItem from="1737732395946" duration="2518000" />
+      <workItem from="1738096189039" duration="1088000" />
+      <workItem from="1738170007883" duration="1859000" />
+      <workItem from="1738183980545" duration="2579000" />
+      <workItem from="1738427610566" duration="2000" />
+      <workItem from="1738429327877" duration="1392000" />
+      <workItem from="1738574460042" duration="715000" />
+      <workItem from="1738598316478" duration="632000" />
+      <workItem from="1738681351003" duration="357000" />
+      <workItem from="1739713225182" duration="28000" />
+      <workItem from="1739783716956" duration="883000" />
+      <workItem from="1740405192927" duration="1908000" />
+      <workItem from="1740498314202" duration="3000000" />
+      <workItem from="1740592750622" duration="619000" />
+      <workItem from="1740786157197" duration="2000" />
+      <workItem from="1741254749679" duration="612000" />
+      <workItem from="1741344482585" duration="599000" />
+      <workItem from="1741441291518" duration="607000" />
+      <workItem from="1741640674900" duration="5000" />
+      <workItem from="1742902578934" duration="597000" />
+      <workItem from="1744881919720" duration="981000" />
+    </task>
+    <task id="LOCAL-00001" summary="config">
+      <option name="closed" value="true" />
+      <created>1730129441180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730129441180</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="config" />
+    <option name="LAST_COMMIT_MESSAGE" value="config" />
+  </component>
+</project>

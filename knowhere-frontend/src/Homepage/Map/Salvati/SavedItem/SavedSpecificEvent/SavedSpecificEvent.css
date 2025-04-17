@@ -1,0 +1,158 @@
+.saved-event-altro,
+.saved-event-cucina,
+.saved-event-musei,
+.saved-event-musica,
+.saved-event-tecnologia,
+.saved-event-videogiochi,
+.saved-event-cinema {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 8px;
+    background: linear-gradient(to right, var(--gradient-color, #ffffff) 1%, #ffffff 20%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 90%; /* Manteniamo il 90% della larghezza */
+    overflow: hidden;
+    margin-right: 20px; /* Distanza aggiunta dal bordo destro */
+}
+
+.saved-event-altro {
+    --gradient-color: #0057FF;
+    border-color: #0057FF;
+}
+
+.saved-event-cucina {
+    --gradient-color: #BD0202;
+    border-color: #BD0202;
+}
+
+.saved-event-musei {
+    --gradient-color: #BD9402;
+    border-color: #BD9402;
+}
+
+.saved-event-musica {
+    --gradient-color: #22E303;
+    border-color: #22E303;
+}
+.saved-event-tecnologia {
+    --gradient-color: #ff6800;
+    border-color: #ff6800;
+}
+
+.saved-event-videogiochi {
+    --gradient-color: #00ffe1;
+    border-color: #00ffe1;
+}
+
+.saved-event-cinema {
+    --gradient-color: #de00ff;
+    border-color: #de00ff;
+}
+
+.saved-event-body {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding-right: 15px; /* Aggiunta di padding interno dal lato destro */
+}
+
+.saved-event-image {
+    flex: 0 0 20%; /* Immagine occupa il 20% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saved-event-photo {
+    width: 80%; /* Ridotta dimensione dell'immagine */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.saved-event-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.saved-event-title {
+    font-size: 1em; /* Ridotto il font */
+    margin: 0;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.saved-event-description p {
+    font-size: 0.85em; /* Font più piccolo */
+    color: #666;
+    margin: 0;
+}
+
+.specific-event-row {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Spaziatura ridotta */
+    font-size: 0.8em; /* Font più piccolo */
+    color: #666;
+}
+
+.specific-event-icon {
+    width: 16px; /* Icone più piccole */
+    height: 16px;
+}
+
+.participate-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.participate-button {
+    background: linear-gradient(to left, #1aff00, #5dd500);
+    color: white;
+    font-size: 0.85em; /* Font più piccolo */
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.participate-button:hover {
+    background-color: #1AB202;
+    transform: scale(1.05);
+}
+.saved-quit-button {
+    background: linear-gradient(to left, #f80e0e, #bd0202);
+    color: white;
+    font-size: 0.85em; /* Font più piccolo */
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.saved-quit-button:hover {
+    background-color: #1AB202;
+    transform: scale(1.05);
+}
+
+.participate-icon {
+    width: 16px; /* Icone più piccole */
+    height: 16px;
+}

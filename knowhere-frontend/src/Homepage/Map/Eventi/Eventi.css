@@ -1,0 +1,99 @@
+.eventi {
+    position: absolute;  /* Posiziona i bottoni in una posizione assoluta rispetto alla pagina */
+    top: 90px;  /* Distanza dal lato superiore */
+    left: 30px;  /* Distanza dal lato sinistro */
+    display: flex;  /* Usato per disporre i bottoni in colonna */
+    flex-direction: column;  /* Disporre i bottoni verticalmente */
+    align-items: flex-start;  /* Allineare i bottoni a sinistra */
+    z-index: 1000;  /* Per assicurarti che i bottoni siano visibili sopra altri contenuti */
+}
+.eventi-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Due colonne */
+    gap: 8px; /* Distanza tra i bottoni */
+    margin-top: 10px;
+}
+
+.eventi-container button {
+    width: 120px; /* Larghezza fissa per uniformità */
+    text-align: center;
+    white-space: normal; /* Permette il testo di andare a capo */
+    word-wrap: break-word; /* Forza il testo a rimanere dentro il bottone */
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+.bottone-all{
+    display: flex;
+    align-items: center;
+}
+
+.eventi button {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    width: 130px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.eventi-button{
+    border: 3px solid #0057FF;
+}
+.cucina-button{
+    border: 3px solid #BD0202;
+}
+.musica-button{
+    border: 3px solid #22E303;
+}
+.musei-button{
+    border: 3px solid #BD9402;
+}
+.tecnologia-button{
+    border: 3px solid #ff6800;
+}
+.videogiochi-button{
+    border: 3px solid #00ffe1;
+}
+.cinema-button{
+    border: 3px solid #de00ff;
+}
+
+
+.events-icon {
+    width: 20px;  /* Imposta la larghezza dell'icona */
+    height: 20px;  /* Imposta l'altezza dell'icona */
+    margin-right: 7px;  /* Distanza tra l'icona e il testo */
+    z-index: 100;
+}
+
+.eventi-button{
+    top: 50px;  /* Distanza dal lato superiore */
+    left: 160px;  /* Distanza dal lato sinistro */
+}
+.chevron-icon{
+    width: 20px;  /* Imposta la larghezza dell'icona */
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 22px;
+    transition: transform 0.3s ease;
+}
+.chevron-icon:hover{
+    width: 20px;  /* Imposta la larghezza dell'icona */
+    height: 20px;
+}
+
+.rotated {
+    transform: rotate(-90deg); /* Rotazione di 90 gradi */
+}
+.rotatedback {
+    transform: rotate(0deg); /* Rotazione di 90 gradi */
+}
+
+.event-count {
+    margin-left: 5px; /* Distanza tra il bottone e la label */
+    font-size: 12px; /* Dimensione del testo della label */
+    color: gray; /* Colore grigio per la label */
+}

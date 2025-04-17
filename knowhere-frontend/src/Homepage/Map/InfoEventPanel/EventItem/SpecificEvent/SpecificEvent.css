@@ -1,0 +1,224 @@
+.specific-event-container-altro, .specific-event-container-cucina, .specific-event-container-musei,
+.specific-event-container-musica,.specific-event-container-tecnologia,.specific-event-container-videogiochi,
+.specific-event-container-cinema {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+            circle,
+            rgba(255, 255, 255, 1) 75%,  /* Bianco dominante */ var(--gradient-color) 100% /* Leggera sfumatura azzurra agli estremi */
+    );
+    z-index: 10; /* Assicurati che sia sopra altri elementi */
+    overflow: hidden; /* Evita lo scrolling generale */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Ridotto per schermi più piccoli */
+    box-sizing: border-box;
+}
+
+.specific-event-container-altro {
+    --gradient-color: #0057FF;
+}
+
+.specific-event-container-cucina {
+    --gradient-color: #BD0202;
+}
+
+.specific-event-container-musei {
+    --gradient-color: #BD9402;
+}
+
+.specific-event-container-musica {
+    --gradient-color: #22E303;
+}
+.specific-event-container-tecnologia {
+    --gradient-color: #ff6800;
+}
+
+.specific-event-container-videogiochi {
+    --gradient-color: #00ffe1;
+}
+
+.specific-event-container-cinema {
+    --gradient-color: #de00ff;
+}
+
+.back-button {
+    position: absolute; /* Posizionamento assoluto per la collocazione in alto a sinistra */
+    top: 10px; /* Distanza dal bordo superiore */
+    left: 0px; /* Distanza dal bordo sinistro */
+    font-size: 0.9em; /* Ridotto per schermi più piccoli */
+    padding: 8px 12px; /* Ridotto per schermi più piccoli */
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: transform 0.2s ease, scale 0.2s ease;
+}
+
+.chev {
+    height: 20px; /* Ridotto per schermi più piccoli */
+    width: 20px; /* Ridotto per schermi più piccoli */
+    transform: rotate(90deg);
+}
+
+.back-button:hover {
+    transform: scale(1.4);
+}
+
+.specific-event-image {
+    width: 50%; /* Ridotto per schermi più piccoli */
+    max-height: 180px; /* Ridotto per schermi più piccoli */
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.specific-event-name {
+    font-size: 1.2em; /* Ridotto per schermi più piccoli */
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.specific-event-description-container {
+    width: 100%; /* Larghezza adeguata */
+    flex: 1; /* Occupa tutto lo spazio disponibile */
+    overflow-y: auto; /* Abilita solo la barra di scorrimento verticale */
+    overflow-x: hidden;
+    padding: 10px 20px; /* Ridotto per schermi più piccoli */
+    box-sizing: border-box;
+}
+
+.specific-event-description {
+    font-size: 1em; /* Ridotto per schermi più piccoli */
+    color: #555;
+    margin: 10px;
+    text-align: left;
+}
+
+.specific-event-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 0.9em; /* Ridotto per schermi più piccoli */
+    color: #333;
+}
+
+.specific-event-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.specific-event-separator {
+    margin: 0 10px;
+    color: #888;
+}
+
+.specific-event-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Ridotto per schermi più piccoli */
+    gap: 10px; /* Ridotto per schermi più piccoli */
+    position: sticky; /* I bottoni rimangono visibili */
+    bottom: 10px; /* Ridotto per schermi più piccoli */
+    padding: 5px 0; /* Ridotto per schermi più piccoli */
+    z-index: 5; /* Garantisce che i bottoni siano sopra la descrizione */
+}
+
+.participate-button {
+    display: flex; /* Abilita il layout flex */
+    align-items: center; /* Centra il contenuto verticalmente */
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    gap: 8px; /* Spaziatura tra testo e immagine */
+    background: linear-gradient(to left, #1aff00, #5dd500);
+    color: white;
+    font-size: 0.9em; /* Ridotto per schermi più piccoli */
+    padding: 8px 15px; /* Ridotto per schermi più piccoli */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.quit-button {
+    display: flex; /* Abilita il layout flex */
+    align-items: center; /* Centra il contenuto verticalmente */
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    gap: 8px; /* Spaziatura tra testo e immagine */
+    background: linear-gradient(to left, #f80e0e, #bd0202);
+    color: white;
+    font-size: 0.9em; /* Ridotto per schermi più piccoli */
+    padding: 8px 15px; /* Ridotto per schermi più piccoli */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.participate-button:hover {
+    background-color: #1AB202;
+    transform: scale(1.05);
+}
+
+.quit-icon {
+    width: 24px; /* Regola la dimensione dell'immagine */
+    height: 24px; /* Assicurati che l'immagine sia proporzionata */
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.4));
+}
+
+
+.save-button {
+    font-size: 0.8em; /* Dimensione leggermente ridotta */
+    width: 40px; /* Altezza e larghezza uguali per un bottone tondo */
+    height: 40px;
+    padding: 0; /* Rimuovi padding per evitare di alterare la forma */
+    border-radius: 50%; /* Perfettamente tondo */
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    border: 2px solid transparent; /* Spessore del bordo leggermente ridotto */
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) border-box;
+    display: flex; /* Per centrare l'icona */
+    justify-content: center;
+    align-items: center;
+}
+
+.save-button:hover {
+    transform: scale(1.1);
+}
+
+.save-icon {
+    width: 20px; /* Dimensione dell'icona ridotta */
+    height: 20px;
+}
+
+
+.custom-icon {
+    font-size: 1em; /* Ridotto per schermi più piccoli */
+    color: rgba(255, 255, 255, 0);
+}
+
+.specific-event-icon {
+    height: 20px; /* Ridotto per schermi più piccoli */
+    width: 20px; /* Ridotto per schermi più piccoli */
+    margin-right: 10px;
+}
+
+/* Media Query per schermi più piccoli */
+@media (max-width: 768px) {
+    .specific-event-description {
+        font-size: 0.9em; /* Adatta dimensioni testo per schermi piccoli */
+    }
+
+    .specific-event-description-container {
+        padding: 5px 10px; /* Riduce padding per risparmiare spazio */
+    }
+
+    .specific-event-name {
+        font-size: 1em; /* Ridotta dimensione del nome */
+    }
+}

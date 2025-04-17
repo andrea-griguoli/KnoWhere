@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.custom-panel-event- {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 30%; /* Puoi regolare la larghezza secondo le tue esigenze */
+    height: 80%; /* Copre l'intera altezza dello schermo */
+    background-color: #FFFFFF;
+    border-radius: 20px; /* Bordi tondeggianti */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+    overflow-y: auto; /* Aggiunge lo scorrimento verticale se necessario */
+    display: flex;
+    flex-direction: column;
+    border: 4px solid transparent; /* Spessore del bordo */
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) border-box;
+    z-index: 100; /* Assicura che il pannello sia sopra la mappa */
+}
+.custom-panel-event-altro, .custom-panel-event-cucina, .custom-panel-event-musei,.custom-panel-event-musica,
+.custom-panel-event-tecnologia, .custom-panel-event-cinema, .custom-panel-event-videogiochi{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 30%; /* Puoi regolare la larghezza secondo le tue esigenze */
+    height: 80%; /* Copre l'intera altezza dello schermo */
+    background-color: #FFFFFF;
+    border-radius: 20px; /* Bordi tondeggianti */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+    overflow-y: auto; /* Aggiunge lo scorrimento verticale se necessario */
+    display: flex;
+    flex-direction: column;
+    border: 4px solid var(--gradient-color); /* Spessore del bordo */
+    z-index: 100; /* Assicura che il pannello sia sopra la mappa */
+
+}
+
+.custom-panel-event-altro {
+    --gradient-color: #0057FF;
+}
+
+.custom-panel-event-cucina {
+    --gradient-color: #BD0202;
+}
+
+.custom-panel-event-musei {
+    --gradient-color: #BD9402;
+}
+
+.custom-panel-event-musica {
+    --gradient-color: #22E303;
+}
+.custom-panel-event-tecnologia {
+    --gradient-color: #ff6800;
+}
+
+.custom-panel-event-cinema {
+    --gradient-color: #de00ff;
+}
+
+.custom-panel-event-videogiochi {
+    --gradient-color: #00ffe1;
+}
+
+.info-button-event {
+    position: absolute;
+    top: 210px;
+    right: 10px;
+    width: 35px; /* Puoi regolare la larghezza secondo le tue esigenze */
+    height: 35px; /* Copre l'intera altezza dello schermo */
+    color: #FFFFFF;
+    border-radius: 10px; /* Bordi tondeggianti */
+    z-index: 100; /* Assicura che il pannello sia sopra la mappa */
+    box-sizing: border-box;
+    background: linear-gradient(to left, #0057FF, #1b9ef8);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoEvent-icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+.mw-content-ltr.mw-parser-output{
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    flex: 1;
+    overflow-y: auto; /* Consente lo scorrimento verticale del contenuto */
+    padding: 10px;
+
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    position: sticky;
+    width: 100%;
+    background: linear-gradient(180deg, #ffffff 10%, #d4d4d4 90%);
+    padding: 30px;
+    z-index: 50; /* Mantiene il titolo sopra il contenuto */
+}
+
+.no-info-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 18px;
+    color: #808080;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-style: italic;
+}
+
+.selected{
+    position: absolute;
+    top: 210px;
+    right: 10px;
+    width: 35px; /* Puoi regolare la larghezza secondo le tue esigenze */
+    height: 35px; /* Copre l'intera altezza dello schermo */
+    color: #FFFFFF;
+    border-radius: 10px; /* Bordi tondeggianti */
+    z-index: 100; /* Assicura che il pannello sia sopra la mappa */
+    box-sizing: border-box;
+    background: linear-gradient(to left, rgba(11, 70, 136, 0.66), #16858a);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,86 @@
+.storia-cucina-cult {
+    position: fixed;
+    bottom: 20px; /* Sposta più in basso per adattarsi a schermi più piccoli */
+    left: 30px; /* Riduci il margine sinistro per evitare problemi su schermi stretti */
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.sto-button, .cuc-button, .cul-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    visibility: visible;
+    opacity: 1;
+    width: 85px;  /* Riduci larghezza per schermi piccoli */
+    height: 80px;  /* Riduci altezza per schermi piccoli */
+    border: 2px solid transparent; /* Aggiungi un bordo trasparente di default */
+}
+
+.sto-button {
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.sto-button:hover, .selecteds {
+    border-bottom: 2px solid #000; /* Aggiungi il bordo inferiore al passaggio del mouse */
+    background: linear-gradient(135deg, rgba(255, 97, 12, 0.6), rgb(189, 148, 2));
+}
+
+.cuc-button {
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.cuc-button:hover, .selectedc {
+    background: linear-gradient(135deg, rgba(255, 22, 139, 0.6), rgb(189, 2, 2));
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.cul-button {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: none;
+}
+
+.cul-button:hover, .selectedcu {
+    border-top: 2px solid #000; /* Aggiungi il bordo superiore al passaggio del mouse */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgb(34, 227, 3));
+}
+
+.left-buttons {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 25px; /* Riduci larghezza */
+    height: 25px; /* Riduci altezza */
+}
+
+/* Media Query per schermi piccoli */
+@media (max-width: 768px) {
+    .storia-cucina-cult {
+        bottom: 10px; /* Ancora più in basso per telefoni */
+        left: 5px; /* Riduci ulteriormente il margine sinistro */
+        flex-direction: row; /* Cambia layout per risparmiare spazio */
+        gap: 5px; /* Aggiungi spazi tra i bottoni */
+    }
+
+    .sto-button, .cuc-button, .cul-button {
+        width: 50px; /* Adatta dimensioni per schermi più piccoli */
+        height: 50px;
+    }
+
+    .left-buttons {
+        width: 20px; /* Riduci ulteriormente */
+        height: 20px;
+    }
+}

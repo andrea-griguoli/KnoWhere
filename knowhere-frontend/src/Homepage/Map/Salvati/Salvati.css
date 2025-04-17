@@ -1,0 +1,168 @@
+/* Overlay */
+.overlay-saved {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+/* Stile generale del pannello */
+.panel-saved {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    height: 80%;
+    border: 4px solid transparent; /* Spessore del bordo */
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) border-box;
+}
+
+/* Layout per dividere le colonne */
+.saved-content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+/* Colonna sinistra: Locations */
+.saved-locations {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+.saved-locations h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.locations-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr)); /* Due location per riga */
+    gap: 10px; /* Spazio tra le location */
+    width: 100%;
+    overflow-y: auto;
+}
+
+.location-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: background-color 0.2s ease-in-out;
+    gap: 10px; /* Spazio tra testo e logo */
+}
+
+.location-button span {
+    text-align: left; /* Assicura che il testo sia allineato a sinistra */
+    flex: 1; /* Occupa lo spazio disponibile a sinistra */
+    cursor: pointer;
+}
+
+.location-button span:hover{
+    text-decoration: underline;
+}
+
+.location-button img {
+    width: 20px; /* Dimensione del logo */
+    height: 20px;
+    margin-left: 20px; /* Aggiunge spazio extra tra il testo e il logo */
+    z-index: 2002;
+    cursor: pointer;
+}
+
+/* Linea verticale divisoria */
+.vertical-divider {
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+    height: 100%;
+}
+
+/* Colonna destra: Eventi */
+.saved-events {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.saved-events h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.saved-events ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.saved-items-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Occupa tutta la larghezza */
+    margin-bottom: 10px; /* Spazio tra gli item */
+}
+
+.saved-item {
+    display: flex;
+    flex: 1; /* Occupa tutto lo spazio disponibile */
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.trash-logo {
+    cursor: pointer;
+    width: 24px; /* Adatta la larghezza dell'immagine */
+    height: auto;
+    margin-left: 5px; /* Distanza tra gli eventi e l'immagine */
+    z-index: 2001; /* Mantiene l'immagine sopra gli altri contenuti */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.trash-logo:hover {
+    transform: scale(1.10); /* Riduce leggermente la dimensione dell'immagine */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Aggiunge un'ombra al passaggio del mouse */
+}
+
+/* Lista di eventi */
+.saved-items-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Contenitore per ogni item (SavedItem e trash-logo) */
+.saved-items-container {
+    display: flex; /* Dispone gli elementi sulla stessa riga */
+    justify-content: space-between; /* Spinge l'immagine a destra */
+    align-items: center; /* Allinea gli elementi verticalmente al centro */
+    margin-bottom: 10px; /* Distanza tra gli item */
+}
+

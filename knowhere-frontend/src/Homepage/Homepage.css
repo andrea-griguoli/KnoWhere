@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box; /* Assicura che padding e bordi siano inclusi nelle dimensioni */
+}
+
+body, html {
+    margin: 0;
+    height: 100%; /* Imposta l'altezza della pagina al 100% */
+}
+
+.homepage-wrapper {
+    display: flex;
+    flex-direction: column; /* Imposta la direzione delle colonne */
+    height: 100%; /* Imposta l'altezza della container al 100% */
+}
+
+.navbar-wrapper {
+    flex: 0 0 77px; /* Imposta un'altezza fissa per la navbar */
+    background-color: #ffffff; /* Colore di sfondo per la navbar */
+    position: relative;
+}
+
+.navbar-wrapper::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 3px solid transparent; /* Spessore del bordo */
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) border-box;
+    z-index: 1;
+}
+
+.map-wrap {
+    flex: 1; /* Occupa lo spazio rimanente */
+    width: 100%; /* Assicura che occupi l'intera larghezza */
+    height: 100%; /* Assicura che occupi l'intera altezza disponibile */
+    position: relative; /* Per posizionare la mappa in modo assoluto */
+}
+
+.map {
+    position: absolute; /* Usa posizione assoluta per la mappa */
+    top: 0; /* Allinea la mappa in alto */
+    left: 0; /* Allinea la mappa a sinistra */
+    width: 100%; /* Imposta la larghezza della mappa al 100% */
+    height: 100%; /* Imposta l'altezza della mappa al 100% */
+}

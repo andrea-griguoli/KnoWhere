@@ -1,0 +1,6 @@
+body, html {
+    margin: 0;
+    padding: 0; /* Assicurati di non avere padding che potrebbe causare lo scorrimento */
+    height: 100%; /* Imposta l'altezza della pagina al 100% */
+    overflow: hidden; /* Rimuove le barre di scorrimento */
+}
