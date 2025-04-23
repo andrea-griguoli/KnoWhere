@@ -151,4 +151,8 @@ export interface FavouriteI{
     setChangedSaved: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
+export interface MyEventsI{
+
+}
+
 

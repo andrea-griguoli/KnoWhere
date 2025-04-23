@@ -12,7 +12,7 @@ import eventi from "./Eventi/Eventi"; // Importa il CSS di MapTiler SDK
 import maplibregl from 'maplibre-gl';
 import InfoEventPanel from "./InfoEventPanel/InfoEventPanel";
 import Salvati from "./Salvati/Salvati";
-import Favourite from "./Favourite/Favourite";
+import Favourite from "./Preferiti/Favourite";
 import account from "./Account/Account";
 import Account from "./Account/Account";
 
