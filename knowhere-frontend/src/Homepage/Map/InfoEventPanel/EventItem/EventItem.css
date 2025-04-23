@@ -1,0 +1,127 @@
+.event-item-altro,
+.event-item-cucina,
+.event-item-musei,
+.event-item-musica,
+.event-item-tecnologia,
+.event-item-cinema,
+.event-item-videogiochi{
+    display: flex;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, var(--gradient-color, #ffffff) 1%, #ffffff 20%);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 150px;
+}
+.event-item-altro:hover,
+.event-item-cucina:hover,
+.event-item-musei:hover,
+.event-item-musica:hover,
+.event-item-tecnologia:hover,
+.event-item-cinema:hover,
+.event-item-videogiochi:hover{
+    transform: scale(1.03); /* Ingrandisce l'elemento del 5% */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Aumenta l'ombreggiatura */
+    cursor: pointer;
+}
+
+.event-item-altro {
+    --gradient-color: #0057FF;
+    border-color: #0057FF;
+}
+
+.event-item-cucina {
+    --gradient-color: #BD0202;
+    border-color: #BD0202;
+}
+
+.event-item-musei {
+    --gradient-color: #BD9402;
+    border-color: #BD9402;
+}
+
+.event-item-musica {
+    --gradient-color: #22E303;
+    border-color: #22E303;
+}
+.event-item-tecnologia {
+    --gradient-color: #ff6800;
+    border-color: #ff6800;
+}
+.event-item-videogiochi {
+    --gradient-color: #00ffe1;
+    border-color: #00ffe1;
+}
+.event-item-cinema {
+    --gradient-color: #de00ff;
+    border-color: #de00ff;
+}
+
+.event-image {
+    width: 30%;
+    padding-right: 15px;
+    display: flex;
+    align-items: center; /* Allinea verticalmente l'immagine */
+    justify-content: center; /* Centra orizzontalmente l'immagine */
+}
+
+.event-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordo curvo per l'immagine */
+    object-fit: cover; /* Garantisce che l'immagine sia ben adattata al contenitore */
+}
+
+.event-info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-title-date {
+    display: flex;
+    justify-content: space-between; /* Metti il titolo a sinistra e la data a destra */
+    align-items: center; /* Allinea verticalmente titolo e data */
+}
+
+.event-title {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.event-date {
+    font-size: 1em;
+    color: #666;
+    margin: 0; /* Rimuovi margini aggiuntivi */
+    padding: 0; /* Rimuovi padding aggiuntivo */
+}
+
+.event-description {
+    font-size: 1em;
+    color: #656565;
+    margin-top: 10px; /* Distanza tra data e descrizione */
+    display: -webkit-box; /* Necessario per il troncamento multi-linea */
+    -webkit-box-orient: vertical; /* Imposta l'orientamento della scatola */
+    -webkit-line-clamp: 2; /* Numero massimo di righe */
+    overflow: hidden; /* Nasconde il contenuto in eccesso */
+    text-overflow: ellipsis; /* Aggiunge i "..." */
+}
+
+.event-more {
+    margin-top: auto; /* Spinge l'elemento verso il basso */
+    margin-left: auto; /* Spinge l'elemento verso destra */
+    font-size: 0.9em;
+    color: #7a7a7a;
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+    align-self: flex-end; /* Allinea il link alla fine */
+
+}
+
+.event-more:hover {
+    text-decoration: none;
+    font-weight: bold;
+}

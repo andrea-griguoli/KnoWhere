@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.custom-panel-info {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 30%; /* Puoi regolare la larghezza secondo le tue esigenze */
+    height: 80%; /* Copre l'intera altezza dello schermo */
+    background-color: #FFFFFF;
+    border-radius: 20px; /* Bordi tondeggianti */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+    overflow-y: auto; /* Aggiunge lo scorrimento verticale se necessario */
+    display: flex;
+    flex-direction: column;
+    z-index: 100; /* Assicura che il pannello sia sopra la mappa */
+
+    border: 4px solid transparent; /* Spessore del bordo */
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) border-box;
+}
+
+.info-button {
+    position: absolute;
+    top: 170px;
+    right: 10px;
+    width: 35px; /* Puoi regolare la larghezza secondo le tue esigenze */
+    height: 35px; /* Copre l'intera altezza dello schermo */
+    color: #FFFFFF;
+    border-radius: 10px; /* Bordi tondeggianti */
+    z-index: 100; /* Assicura che il pannello sia sopra la mappa */
+    box-sizing: border-box;
+    background: linear-gradient(to left, #0057FF, #1b9ef8);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-icon{
+    width: 26px;
+    height: 26px;
+}
+
+.mw-content-ltr.mw-parser-output{
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    flex: 1;
+    overflow-y: auto; /* Consente lo scorrimento verticale del contenuto */
+    padding: 10px;
+
+}
+.title-info-cultura,.title-info-cucina, .title-info-storia{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    width: 100%;
+    padding: 30px;
+    z-index: 3000; /* Mantiene il titolo sopra il contenuto */
+    position: relative; /* Necessario per posizionare il testo */;
+    height: 150px; /* Altezza specifica del div */
+    background-size: cover; /* Adatta l'immagine per riempire il div */
+    background-position: center; /* Centra l'immagine */
+    display: flex; /* Per centrare il testo */
+    justify-content: center; /* Centra il testo orizzontalmente */
+    align-items: center; /* Centra il testo verticalmente */
+    overflow: hidden; /* Evita scroll */
+}
+.title-info-cultura{
+    background-image: url("../../../resources/cultura.jpg");
+}
+.title-info-storia{
+    background-image: url("../../../resources/sto.jpg");
+}
+.title-info-cucina{
+    background-image: url("../../../resources/alamy.jpg");
+}
+
+
+.title-info span {
+    font-size: 1.6em;
+    font-weight: bold;
+    line-height: 0.9;
+    max-width: 80%;
+    color: #343434; /* Contrasto con l'immagine */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombra per migliorare la leggibilità */
+}
+
+.no-info-message-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 18px;
+    color: #808080;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-style: italic;
+}
+.selected-button{
+    position: absolute;
+    top: 170px;
+    right: 10px;
+    width: 35px; /* Puoi regolare la larghezza secondo le tue esigenze */
+    height: 35px; /* Copre l'intera altezza dello schermo */
+    color: #FFFFFF;
+    border-radius: 10px; /* Bordi tondeggianti */
+    z-index: 100; /* Assicura che il pannello sia sopra la mappa */
+    box-sizing: border-box;
+    background: linear-gradient(to left, rgba(11, 70, 136, 0.66), #16858a);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cover{
+
+}

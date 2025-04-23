@@ -1,0 +1,129 @@
+.sevent-item-altro,
+.sevent-item-cucina,
+.sevent-item-musei,
+.sevent-item-musica,
+.sevent-item-tecnologia,
+.sevent-item-cinema,
+.sevent-item-videogiochi  {
+    display: flex;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, var(--gradient-color, #ffffff) 1%, #ffffff 20%);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100px;
+    overflow: hidden;
+    width: 90%;
+}
+
+.sevent-item-altro:hover,
+.sevent-item-cucina:hover,
+.sevent-item-musei:hover,
+.sevent-item-musica:hover,
+.sevent-item-tecnologia:hover,
+.sevent-item-cinema:hover,
+.sevent-item-videogiochi:hover{
+    transform: scale(0.98);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.sevent-item-altro {
+    --gradient-color: #0057FF;
+    border-color: #0057FF;
+}
+
+.sevent-item-cucina {
+    --gradient-color: #BD0202;
+    border-color: #BD0202;
+}
+
+.sevent-item-musei {
+    --gradient-color: #BD9402;
+    border-color: #BD9402;
+}
+
+.sevent-item-musica {
+    --gradient-color: #22E303;
+    border-color: #22E303;
+}
+.sevent-item-tecnologia {
+    --gradient-color: #ff6800;
+    border-color: #ff6800;
+}
+
+.sevent-item-videogiochi {
+    --gradient-color: #00ffe1;
+    border-color: #00ffe1;
+}
+
+.sevent-item-cinema {
+    --gradient-color: #de00ff;
+    border-color: #de00ff;
+}
+
+.sevent-image {
+    width: 30%;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sevent-photo {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.sevent-info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sevent-title-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sevent-title {
+    font-size: 1.1em;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sevent-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Occupare tutta la larghezza disponibile */
+}
+
+.sevent-date {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.sevent-more {
+    font-size: 0.9em;
+    color: #7a7a7a;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: auto; /* Posiziona il link tutto a destra */
+}
+
+.sevent-more:hover {
+    text-decoration: none;
+    font-weight: bold;
+}

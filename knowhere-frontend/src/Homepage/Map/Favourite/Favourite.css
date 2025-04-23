@@ -1,0 +1,21 @@
+.info-button-f {
+    position: absolute;
+    top: 250px;
+    right: 10px;
+    width: 35px; /* Puoi regolare la larghezza secondo le tue esigenze */
+    height: 35px; /* Copre l'intera altezza dello schermo */
+    color: #FFFFFF;
+    border-radius: 10px; /* Bordi tondeggianti */
+    z-index: 100; /* Assicura che il pannello sia sopra la mappa */
+    box-sizing: border-box;
+    background: linear-gradient(to left, #beae00, #e3ff02);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-icon{
+    width: 26px;
+    height: 26px;
+}
